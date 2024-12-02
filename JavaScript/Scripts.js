@@ -19,7 +19,7 @@ window.addEventListener('scroll', () => {
     cabezera.style.padding = `${padding}px`;
 });
 
- 
+
 document.getElementById('contactForm').addEventListener('submit', function (event) {
     event.preventDefault(); // Prevenir el envío del formulario por defecto
     let errors = []; // Array para acumular los mensajes de error
